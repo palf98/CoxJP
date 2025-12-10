@@ -8,6 +8,6 @@ Our implementation is aimed at analysing long-term time trends of survival with 
 In the provided code, users can find both all the necessary code to select the model with best fit for a dataset and determine the statistical signification of trends through a bootstrap resampling algorithm of the main trend metric used in Cox-joinpoint models: annual absolute change in survival (AACS). In Line 286, users can find an example dataset, which is completely simulated, to try the functions. 
 
 REQUIREMENTS:
-Users need to install the R packages: dplyr (we used v.1.1.4), lubridate (we used v.1.9.4), periodR (we used v.1.0-6) and survival (we used v.3.6-4). Details on how to install package 'periodR' can be find in lines 5-6 of CoxJP.R
+Users need to install the R packages: dplyr (we used v.1.1.4), lubridate (we used v.1.9.4), periodR (we used v.1.0-6) and survival (we used v.3.6-4). Details on how to install package 'periodR' can be find in lines 5-6 of Cox_joinpoint.R
 
 All code was originally written and run in R version 4.4.1.
